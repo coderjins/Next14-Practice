@@ -32,12 +32,12 @@ body {
   border-radius: 5px;
 }
 
-.cart {
-  margin: 0 auto;
-  color: black;
-  background: blue;
-  width: 150px;
-  text-align: center;
+.cart-item {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  line-height: 0px;
 }
 
 .payment {
@@ -46,4 +46,9 @@ body {
   background: white;
   width: 200px;
   text-align: center;
+}
+
+.macImage {
+  width: 100%;
+  height: auto;
 }
