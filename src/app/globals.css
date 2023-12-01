@@ -52,3 +52,12 @@ body {
   width: 100%;
   height: auto;
 }
+
+.basicButton {
+  color: white;
+  background: red;
+
+  &.blue {
+    background: blue;
+  }
+}
